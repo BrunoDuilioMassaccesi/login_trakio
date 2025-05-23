@@ -13,10 +13,12 @@ export default function App() {
       <TextInput style={styles.gmail} placeholder='salvadorsoncini@gmail.com' />
       <TextInput style={styles.contrsaena} placeholder='**********' />
 
-            <Button style={styles.boton} >
-                <Text style={styles.textoBoton}>Soy un infoPibe</Text>
-            </Button>
-
+      <Pressable style={styles.boton}>
+            <Text style={styles.log}>Iniciar Sesion</Text>
+      </Pressable>
+      <Pressable style={styles.boton}>
+            <Text style={styles.olvidar}>¿Olvidaste tu Contraseña?</Text>
+      </Pressable>
     </View>
   );
 }
@@ -66,5 +68,20 @@ const styles = StyleSheet.create({
     textAlign:'center',
     borderWidth: 2.5,        
     borderColor: '#1359BF',
+  },
+  log:
+  {
+    backgroundColor: '#29426B',
+    padding:10, 
+    marginTop:50,
+    paddingLeft:100,
+    paddingRight:100,
+    borderRadius:5,
+    color: '#fff',
+  },
+  olvidar:
+  {
+    color:'#3C49D2',
+    marginTop:30,
   },
 });
