@@ -9,9 +9,8 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style='light'></StatusBar>
       <Image source={imgLocal2} style={styles.logo} />
-      <TextInput style={styles.texto} placeholder='🤷    Salvador Soncini' />
-      <TextInput style={styles.gmail} placeholder='salvadorsoncini@gmail.com' />
-      <TextInput style={styles.contrsaena} placeholder='**********' />
+      <TextInput style={styles.texto} placeholder='Company' />
+      <TextInput style={styles.contrsaena} placeholder='password' />
 
       <Pressable style={styles.boton}>
             <Text style={styles.log}>Iniciar Sesion</Text>
@@ -40,8 +39,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     marginTop: 80,
     padding: 10,
-    paddingRight: 100,
-    paddingLeft: 100,
+    paddingRight: 107,
+    paddingLeft: 107,
     borderRadius: 7,
     borderWidth: 2.5,        
     borderColor: '#1359BF',   
@@ -61,8 +60,8 @@ const styles = StyleSheet.create({
   {
     backgroundColor: '#fff',
     padding:10,
-    paddingRight:142,
-    paddingLeft:142,
+    paddingRight:107,
+    paddingLeft:107,
     borderRadius:7,
     marginTop:30,
     textAlign:'center',
@@ -74,8 +73,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#29426B',
     padding:10, 
     marginTop:50,
-    paddingLeft:100,
-    paddingRight:100,
+    paddingLeft:60,
+    paddingRight:60,
     borderRadius:5,
     color: '#fff',
   },
